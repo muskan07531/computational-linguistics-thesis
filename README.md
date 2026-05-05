@@ -1,7 +1,7 @@
 #EVALUATING LLAMA 3.3 ON MONOLINGUAL AND CODE-SWITCHED SINDHI–ENGLISH INPUTS: A BIDIRECTIONAL MATRIX LANGUAGE ANALYSIS
 
 ## About This Project 
-This project investigates how large language models handle monolingual and code-switched language varieties. I created 4 custom MCQ datasets (100 questions each), where every question had 4 options (1 correct answer and 3 distractors). Each dataset was fed to LLaMA 3.3 using zero-shot prompting and was prompted to select one answer per question. Responses were scored using a binary system (1 for correct, 0 for incorrect) and performance was then measured based on accuracy scores across all four dataset conditions.
+This project investigates how large language models handle monolingual and code-switched language varieties. I created 4 custom MCQ datasets (100 questions each), where every question had 4 options (1 correct answer and 3 distractors). All answer options were kept in English across all four conditions.This decision was made because the Matrix Language Frame (MLF) model cannot be meaningfully applied to single-word options, and keeping options consistent in English avoided confounding variables across conditions. Each dataset was fed to LLaMA 3.3 using zero-shot prompting and was prompted to select one answer per question. Responses were scored using a binary system (1 for correct, 0 for incorrect) and performance was then measured based on accuracy scores across all four dataset conditions.
 
 ## Datasets
 I created 4 original datasets (100 MCQs each):
