@@ -32,8 +32,10 @@ Accuracy varied across conditions, however differences were not statistically si
 indicating that LLaMA 3.3 performs more reliably on English and English-influenced inputs than on purely Sindhi text.
 
 ## Code
-Full code for dataset construction, API calls, and statistical 
-analysis is available in the `/code` folder of this repository.
+Full code for running the experiment is available in the `/code` folder of this repository.
+
+##Dataset 
+Complete datasets are available in the '/data' folder of this repository. 
 
 ## Author
 [Muskan] — Linguistics Major, Bahria University, Karachi
